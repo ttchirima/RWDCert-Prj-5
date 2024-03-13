@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    padding: 10px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#navbar a:hover {
+    color: #ddd;
+}
+
+#welcome-section {
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-section h1 {
+    font-size: 36px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project-tile {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-tile h3 {
+    font-size: 24px;
+}
+
+@media (max-width: 1200px) {
+    #navbar {
+        position: fixed;
+    }
+}
